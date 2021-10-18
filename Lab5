@@ -156,3 +156,84 @@ if(grade==3||grade==4){
      cout<<source;
    		
    }
+if(grade==5||grade==6){
+   	    srand(time(NULL));
+    for(n;n>0;n--){
+   		int type=rand()%4;
+   	    double a=(double)(rand())/RAND_MAX;
+	   	double b=(double)(rand())/RAND_MAX;
+	    double r;
+	   if(type==0){
+	   	
+	   	r=a+b;
+	   	cout<<a;
+	   	cout<<"+";
+	   	cout<<b;
+	   	cout<<"=";
+	   	int stu;
+	   	cin>>stu;
+	   	if(stu==r){
+	   		source=source+source1;
+		   }
+	   	
+	   	
+	   	
+	   }   	
+   	
+   	if(type==1){
+	   	r=a-b;
+	  	cout<<a;
+	   	cout<<"-";
+	   	cout<<b;
+	   	cout<<"=";
+	    int stu;
+	   	cin>>stu;
+	   	if(stu==r){
+	   		source=source+source1;
+		   }
+	   	
+	   	
+	   	
+	   }
+	   if(type==2){
+	   	r=a*b;
+	   	cout<<a;
+	   	cout<<"*";
+	   	cout<<b;
+	   	cout<<"=";
+	   	int stu;
+	   	cin>>stu;
+	   	if(stu==r){
+	   		source=source+source1;
+		   }
+	   	
+	   	
+	   	
+	   	
+	   }   	   	
+   	if(type==3){
+	   	r=a/b;
+	   	cout<<a;
+	   	cout<<"÷";
+	   	cout<<b;
+	   	cout<<"=";
+	   	int stu;
+	   	cin>>stu;
+	   	if(stu==r){
+	   		source=source+source1;
+		   }
+	   	
+	   	
+	   	
+	   }   	
+   	
+   	
+   	
+   }	
+    cout<<"得分： ";
+     cout<<source;
+   		
+   }
+   
+   
+   }
